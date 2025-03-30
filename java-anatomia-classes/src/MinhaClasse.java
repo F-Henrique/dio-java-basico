@@ -10,6 +10,7 @@ public class MinhaClasse {
         String nomeCompleto =NomeCompleto(primeiroNome, segundoNome);
         System.out.print(nomeCompleto);
         
+        
     }
 
 public static String NomeCompleto(String primeiroNome, String segundoNome){
