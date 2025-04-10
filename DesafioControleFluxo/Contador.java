@@ -3,6 +3,7 @@ import java.util.Scanner;
 public class Contador {
 	public static void main(String[] args) {
 
+
 		Scanner terminal = new Scanner(System.in);
 		
 		System.out.println("Digite o primeiro parâmetro");
@@ -12,7 +13,7 @@ public class Contador {
 		int parametroDois = terminal.nextInt();
 		
 		try {
-			//chamando o método contendo a lógica de contagem
+			
 			contar(parametroUm, parametroDois);
 		
 		}catch (ParametrosInvalidosException e) {
